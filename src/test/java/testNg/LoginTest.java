@@ -18,14 +18,12 @@ public class LoginTest {
 
         // Step 3: Open URL
         BaseClass.launchUrl("https://demoqa.com/login");
-
-        
-        
+       
         // Step 4: Perform login
         String userName = BaseClass.readExcel("LoginDetails", "Sheet1", 1, 0);
         BaseClass.driver.findElement(By.xpath("//input[@id='userName']"))
                         .sendKeys(userName);
-        String passWord = BaseClass.readExcel("LoginDetails", "Sheet1", 1, 0);
+        String passWord = BaseClass.readExcel("LoginDetails", "Sheet1", 1, 1);
         BaseClass.driver.findElement(By.xpath("//input[@id='password']"))
                         .sendKeys(passWord);
 

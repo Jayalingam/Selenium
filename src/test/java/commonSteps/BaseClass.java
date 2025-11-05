@@ -158,7 +158,7 @@ public class BaseClass {
 	// 17. To Take ScreenShot
 	public static void takeScreenShot(String name) throws Exception  {
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File des = new File("D:\\Learning\\Selenium\\Screenshots\\"+name+".png");
+		File des = new File("D:\\Learning\\Selenium\\screenshots\\"+name+".png");
 		FileHandler.copy(src, des);
 	} 
 	// 18. JavaScript Executor
