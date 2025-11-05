@@ -33,7 +33,7 @@ public class BaseClass {
 	// 1. To Launch Chrome Browser
 	public static void openChromeBrowser() {
 
-		System.setProperty("webdriver.chrome.driver", "F:\\Jaga\\Selenium\\drivers\\chromedriver-win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver-win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
