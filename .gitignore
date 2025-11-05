@@ -1,1 +1,18 @@
-/target/
+# Maven build output
+target/
+
+# Test reports and logs
+test-output/
+Screenshots/
+test-data/
+
+# Eclipse/IDEA/VSCode settings
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
