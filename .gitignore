@@ -3,8 +3,6 @@ target/
 
 # Test reports and logs
 test-output/
-Screenshots/
-test-data/
 
 # Eclipse/IDEA/VSCode settings
 .classpath
